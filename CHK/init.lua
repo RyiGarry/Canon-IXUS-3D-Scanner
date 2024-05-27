@@ -1,0 +1,5 @@
+!mc=require('multicam')
+#!require('download_and_delete')
+!mc:connect()
+!mc:start()
+!mc:cmdwait('rec')
